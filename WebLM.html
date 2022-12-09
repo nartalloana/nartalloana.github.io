@@ -6,29 +6,30 @@
 	</head>
  
 	<body style="background-color:beige">
-    <!--CABECERA DE LA PAGINA-->
-    <figure align="center">
-      <h1 id="Titulo">Moda Sostenible</h1>
-		    <figcaption>
-				<em>El blog más completo sobre moda sostenible y reutilización</em>
-			</figcaption>
-	</figure>
-    <!--ÍNDICE-->
-    <div id="indice">
+    <!DOCTYPE html>
+<html lang="es">
+	<head>
+		 <meta charset="UTF-8">
+         <link rel="stylesheet" href="style.css">
+    <title>Blog moda sostenible</title>
+	</head>
+ 
+	<body>
+    <!--MENÚ-->
+<header>
+    <nav>
+        <label class="logo">Slowww</label>
         <ul>
-          <li>
-            <a href="#articulos">Artículos</a>
-          </li>
-          <li>
-            <a href="#galeria">Galería</a>
-          </li>
-          <li>
-            <a href="#interesarte">Podría interesarte</a>
-          </li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#articulos">Artículos</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#interesarte">Podría interesarte</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
-    </div>
+    </nav>
+</header>
     <!--SECCIÓN ARTICULOS-->
-    <h2 align="right" id="articulos">Artículos</h2>
+    <section id="articulos">
     <h3>"Stooping" la nueva moda sostenible en la que puedes participar</h3>
     <p>Un escritorio en el sur de Manhattan, una mesa de billar, un ahumador eléctrico para carne en Brooklyn y hasta una moto de agua en El Bronx: los objetos que la gente deja en las calles
          de Nueva York son de lo más diverso, y su <strong>recolección</strong> y <strong>reciclaje</strong> tiene ahora un nombre: "stooping", que viene de "stoop" (agacharse).</p>
@@ -41,15 +42,15 @@
     <p>Sétima Feira es una iniciativa que busca dinamizar la escena creativa de la ciudad favoreciendo un espacio para la venta y el emprendimiento, 
         apostando por la colaboración entre los nuevos creadores y el comercio local.</p>
     <a href="https://www.pontevedraviva.com/xeral/25889/quince-creadores-pontevedreses-participaran-primera-setima-feira/">Noticia completa</a>
-    
+    </section>
     <hr>
     <!--SECCION GALERIA-->
-    <h2 align="left" id="galeria">Galería</h2>
+    <section id="galeria">
     <p>
         <img src="imagenes/moda-sostenible.jpg" width="200" height="133" title="Moda sostenible" alt="Cartel Less is More" >
         <img src="imagenes/descarga.jfif" width="300" height="168" title="Reusar" alt="Simbolo reciclaje de ropa">
         <figure>
-			<div align="right"><img src="imagenes/fastfashion.jfif" width="299" height="168" title="Fastfashion" alt="Residuos del fastfashion" >
+			<div><img src="imagenes/fastfashion.jfif" width="299" height="168" title="Fastfashion" alt="Residuos del fastfashion" >
 		    <figcaption>
 				<em>Residuos generados por el Fast Fashion.</em>
 			</figcaption>
@@ -59,60 +60,62 @@
         </a>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/NDx711ibD1M" title="Trailer The True Cost Documentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </p>   
+    </p> 
+    </section>  
     <!--SECCION DE LISTAS Y TABLAS INTERESANTES-->
     <hr>
-    <h2 align="right" id="interesarte">Quizá pueda interesarte...</h2>
-    <!--LISTA-->
-    <h3>Marcas de ropa sostenible</h3>
-    <ul>
-        <li>Back to the roots</li>
-        <li>Greener</li>
-        <li>ClotsyBrand</li>
-        <li>Percentil</li>
-        <li>Fieito</li>
-    </ul>
-    <h3>Podcast sobre moda sostenible</h3>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2P8YHJWWdtwS7Gu9tqOsb0?utm_source=generator"
-     width="352" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <section id="interesarte">
+        <!--LISTA-->
+        <h3>Marcas de ropa sostenible</h3>
+            <ul>
+                <li>Back to the roots</li>
+                <li>Greener</li>
+                <li>ClotsyBrand</li>
+                <li>Percentil</li>
+                <li>Fieito</li>
+            </ul>
+        <h3>Podcast sobre moda sostenible</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2P8YHJWWdtwS7Gu9tqOsb0?utm_source=generator"
+            width="352" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     <!--TABLA-->
-    <h3 align="right">Comparativa precios/salarios</h3>
-    <table border="1" align="right">
-        <th>Producto</th>
-        <th>Taka</th>
-        <th>Dólar($)</th>
-        <th>Euro(€)</th>
-        <tr>
-            <td>Zapatos</td>
-            <td>4000</td>
-            <td>42,21$</td>
-            <td>41,25€</td>
-        </tr>
-        <tr>
-            <td>Zapatillas deportivas</td>
-            <td>4700</td>
-            <td>49,60$</td>
-            <td>48,47€</td>
-        </tr>
-        <tr>
-            <td>Vestido (Zara, H&M, etc.)</td>
-            <td>2000</td>
-            <td>19,73$</td>
-            <td>20,13€</td>
-        </tr>
-        <tr>
-            <td>Vestido (Zara, H&M, etc.)</td>
-            <td>2000</td>
-            <td>19,73$</td>
-            <td>20,13€</td>
-        </tr>
-        <tr>
-            <td><b>Salarios mensuales</b></td>
-            <td>8300</td>
-            <td>1256$ (EEUU)</td>
-            <td>1166,70€ (España)</td>
-        </tr>
-    </table>
+        <h3>Comparativa precios/salarios</h3>
+            <table border="1">
+                <th>Producto</th>
+                <th>Taka</th>
+                <th>Dólar($)</th>
+                <th>Euro(€)</th>
+                <tr>
+                    <td>Zapatos</td>
+                    <td>4000</td>
+                    <td>42,21$</td>
+                    <td>41,25€</td>
+                </tr>
+                 <tr>
+                    <td>Zapatillas deportivas</td>
+                    <td>4700</td>
+                    <td>49,60$</td>
+                    <td>48,47€</td>
+                </tr>
+                <tr>
+                    <td>Vestido (Zara, H&M, etc.)</td>
+                    <td>2000</td>
+                    <td>19,73$</td>
+                    <td>20,13€</td>
+                </tr>
+                <tr>
+                    <td>Vestido (Zara, H&M, etc.)</td>
+                    <td>2000</td>
+                    <td>19,73$</td>
+                    <td>20,13€</td>
+                </tr>
+                <tr>
+                    <td><b>Salarios mensuales</b></td>
+                    <td>8300</td>
+                    <td>1256$ (EEUU)</td>
+                    <td>1166,70€ (España)</td>
+                </tr>
+            </table>
+    </section>
 <br/>
     <br/>
     <br/>
@@ -125,7 +128,6 @@
     <br/>
     <hr/>
     <!--FORMULARIOS-->
-    <h2 align="left" id="contacto">Contacta con nosotras</h2>
     <form><!--FORMULARIO USUARIO-->
         <fieldset>
           <legend>Soy Usuario:</legend>
