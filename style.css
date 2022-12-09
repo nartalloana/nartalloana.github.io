@@ -1,0 +1,49 @@
+*{padding:0;
+    margin:0;
+    text-decoration:none;
+    box-sizing:border-box;
+    font-family:Arial;
+    }
+    nav{
+      background-color:#B5D5A4;
+      height:80px;
+      width:100%;
+      position: relative;
+      z-index: 100;
+    }
+    label.logo{
+      color:#9E7B19;
+      font-size:35px;
+      line-height:80px;
+      font-weight:bold;
+      padding:10px;
+    }
+    
+    nav ul{float:right;
+      margin-right:20px;
+      overflow: hidden;
+    }
+    
+    nav ul li{
+      display:inline-block;
+      line-height:80px;
+      margin: 0 5px;
+    }
+    
+    nav ul li a{
+      color:#B98D12;
+      font-size:17px;
+      text-transform:uppercase;
+      font-weight:bold;
+      padding:15px;
+    }
+    a:hover{
+      background-color:white;
+      border: 1px dotted green;
+      border-radius: 50% 20% / 10% 40%;
+    }
+    a.active{
+      background-color:white;
+      border: 1px dotted green;
+      border-radius: 50% 20% / 10% 40%;
+    }
