@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blog moda sostenible</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+
+<body>
+    <!--CABECERA DE LA PAGINA-->
+    <header>
+        <figure class="header">
+            <img id="logo" src="imagenes/logo2.png"></img>
+            <section class="header2">
+                <h1 id="titulo">Slow Fashion</h1>
+                <p id="eslogan">Hagamos de lo ético la última tendencia</p>
+            </section>
+        </figure>
+    </header>
+    <!--MENÚ-->
+    <nav class="container">
+        <a class="seccion" href="index.html"><span class="material-symbols-outlined" href="#">
+                home
+            </span>Inicio</a>
+        <a class="seccion" href="index.html#noticias"><span class="material-symbols-outlined" href="#noticias">
+                newspaper
+            </span>Noticias</a>
+        <a class="seccion" href="index.html#directorio"><span class="material-symbols-outlined">
+                checkroom
+            </span>Directorio de marcas</a>
+        <a class="seccion" href="index.html#recomendados"><span class="material-symbols-outlined">
+                assistant
+            </span>Recomendados</a>
+        <a class="seccion" href="#contacta"><span class="material-symbols-outlined">
+                mail
+            </span>Contacta</a>
+    </nav>
+    <!--CONTACTA-->
+    <article id="container">
+        <form id="contacto">
+            <h2 id="tituloF">Contacto</h2>
+            <!--NOMBRE-->
+            <label for="name">Nombre:</label> <br />
+            <input type="text" id="name" name="fname"><br />
+            <!--PRIMER APELLIDO-->
+            <label for="surname">Apellidos:</label> <br />
+            <input type="text" id="surname" name="sname"><br />
+            <!--MAIL-->
+            <label for="email">Mail:</label> <br />
+            <input type="email" id="email" name="email"><br />
+            <!--FECHA NACIMIENTO-->
+            <label for="date">Fecha de nacimiento:</label> <br />
+            <input type="date" id="date"><br />
+            <!--COMO NOS CONOCE-->
+            <h5>¿Cómo no has encontrado?</h5>
+            <input type="radio" id="google" name="motivo">
+            <label for="motivo">Google</label> <br />
+            <input type="radio" id="rrss" name="motivo">
+            <label for="motivo">Redes Sociales</label> <br />
+            <input type="radio" id="familiar" name="motivo">
+            <label for="motivo">Familiar/amigos</label> <br />
+            <input type="radio" id="Otro" name="motivo">
+            <label for="motivo">Otro (especificar)</label>
+            <input type="text" id="otro" name="otro"><br /><br />
+            <!--TERMINOS Y CONDICIONES-->
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">Aceptar términos y condiciones de uso</label> <br /><br />
+            <!--BOTON ENVIAR-->
+            <input id="botonF" type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </article>
+    <footer>
+        <section id="sprites">
+            <ul>
+                <li><a class="Facebook" href="#"></a></li>
+                <li><a class="Twitter" href="#"></a></li>
+                <li><a class="Instagram" href="#"></a></li>
+            </ul>
+        </section>
+    </footer>
+
+</html>

@@ -1,0 +1,552 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    padding: 0;
+    margin: auto;
+    font-family: 'Helvetica', Arial, sans-serif;
+
+}
+
+#logo {
+    width: 175px;
+    height: 148px;
+    border-radius: 100px;
+    float: left;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+}
+
+h2 {
+    padding: 50px;
+    font-size: 35px;
+    margin-left: 35%;
+    text-decoration: underline;
+    color: #D4B45B;
+    letter-spacing: 0;
+    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+}
+
+/*HEADER*/
+.header {
+    margin-top: 0 auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(imagenes/fondoHeader.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    background: transparent;
+}
+
+#titulo {
+    font-size: 80px;
+    background: transparent;
+    color: #D4B45B;
+    letter-spacing: 0;
+    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+}
+
+#eslogan {
+    background: transparent;
+    font-size: 17px;
+}
+
+/*MENÚ*/
+.container {
+    background-color: lavender;
+    border-bottom: 2px solid #D4B45B;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+#menuH {
+    display: none;
+}
+
+.material-symbols-outlined {
+    background: transparent;
+    width: 40px;
+    color: #468DC5;
+}
+
+.seccion {
+    text-decoration: none;
+    background-color: lavender;
+    color: #D4B45B;
+}
+
+.seccion:hover {
+    border: 3px #468DC5 solid;
+    border-radius: 25px;
+    transform: scale(1.1);
+    padding: 6px;
+    color: #468DC5;
+}
+
+/*NOTICIAS*/
+
+.news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.seccion2 {
+    position: relative;
+    background-color: white;
+    padding: 10px 10px 50px 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+    width: 327px;
+    text-align: justify;
+}
+
+.fecha {
+    color: gray;
+    font-size: 10px;
+}
+
+/*DIRECTORIO MARCAS*/
+#secDir {
+    height: 565px;
+    border: 2px solid #468DC5;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    background-image: url(imagenes/fondoDirectorio2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.button {
+    background-color: lavender;
+    border: 3px solid #468DC5;
+    border-radius: 20px;
+    width: 400px;
+    color: #D4B45B;
+    padding: 20px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    align-self: center;
+}
+
+.button:hover {
+    border: 3px #468DC5 dashed;
+    border-radius: 20px;
+    transform: scale(1.1);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*RECOMENDADOS*/
+
+.seccionL {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin: 0px;
+    background-color: lavender;
+}
+
+.titulosR {
+    font-size: 30px;
+    color: #D4B45B;
+    text-decoration: underline wavy #D4B45B;
+    line-height: 15px;
+}
+
+#lista {
+    list-style: none;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#lista>a {
+    text-decoration: none;
+}
+
+#lista>a>li {
+    border: 1px dotted #468DC5;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#lista>a>li:hover {
+    transform: scale(1.1);
+}
+
+.default {
+    background: transparent;
+    border: #D4B45B 2px solid;
+    width: 200px;
+}
+
+.seccionV {
+    display: flex;
+    flex-direction: row;
+    background-color: #468DC5;
+    padding: 20px;
+}
+
+.sub {
+    border: 2px dashed #D4B45B;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.sub2 {
+    background-color: #D4B45B;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#botonR {
+    background-color: lavender;
+    border: 3px solid #468DC5;
+    border-radius: 20px;
+    width: 200px;
+    color: #D4B45B;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    align-self: center;
+    margin: 5%;
+}
+
+#botonR:hover {
+    border: 3px dashed #468DC5;
+    border-radius: 20px;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.seccionP {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 50px;
+}
+
+.seccionP>p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.seccionP>p>img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    filter: invert(0.4) sepia(1) hue-rotate(10deg);
+}
+
+.seccionP>p>img:hover {
+    background: rgba(255, 121, 63, 1);
+    box-shadow: 0 0 0 0 rgba(255, 121, 63, 1);
+    animation: ondas 2s infinite;
+}
+
+@keyframes ondas {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 121, 63, 0.7);
+    }
+
+    70% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 10px rgba(255, 121, 63, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 121, 63, 0);
+    }
+}
+
+/*FOOTER*/
+#sprites {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+#sprites ul {
+    display: block;
+    list-style: none;
+    max-height: 50px;
+}
+
+#sprites ul li {
+    display: inline-block;
+}
+
+#sprites ul li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(imagenes/Social.png);
+    float: left;
+    margin: 4px;
+    border: solid 2px white;
+    transition: all 0.4s ease;
+}
+
+#sprites ul li a.Facebook {
+    background-position: -45px 0px;
+}
+
+#sprites ul li a.Twitter {
+    background-position: 0px 0px;
+}
+
+#sprites ul li a.Instagram {
+    background-position: -85px 0px;
+}
+
+#sprites ul li a:hover {
+    border: 2px dashed #468DC5;
+}
+
+/*FORMULARIO (PÁGINA AUXILIAR)*/
+
+#container {
+    border: solid 3px #D4B45B;
+    max-width: 768px;
+    margin: 60px auto;
+    position: relative;
+}
+
+#contacto {
+    padding: 5px 37.5px;
+    margin: 50px 0;
+}
+
+form>label,
+h5 {
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    line-height: 15px;
+    color: #468DC5
+}
+
+#botonF {
+    background: none;
+    border: dashed 2px #468DC5;
+    color: #D4B45B;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    margin-left: 40%;
+}
+
+input[type='text'],
+[type='email'],
+[type='date'] {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #D4B45B;
+    color: #D4B45B;
+    font-size: 1.000em;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    width: 100%;
+}
+
+input[type='text']:focus,
+[type='email']:focus,
+[type='date']:focus {
+    outline: 0 none;
+    background: none;
+    border: none;
+    border-bottom: dashed 2px #468DC5;
+    color: #468DC5;
+}
+
+/*DIRECTORIO MARCAS (PÁGINA AUXILIAR)*/
+.menuA {
+    width: 20%;
+    position: fixed;
+    border: 2px dashed #468DC5;
+    line-height: 30px;
+    padding: 20px;
+    margin-left: 5%;
+}
+
+.containerD {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 5%;
+    background: transparent;
+}
+
+.menuA>h3 {
+    color: #D4B45B;
+    text-align: center;
+}
+
+#body2>h1 {
+    background-image: url(imagenes/fondoDirectorio.jpeg);
+    background-size: 25px 25px;
+    padding: 20px;
+    font-size: 80px;
+    color: #D4B45B;
+    letter-spacing: 0;
+    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+}
+
+.containerD>h3 {
+    font-size: 30px;
+    background: white;
+    color: #D4B45B;
+    text-align: center;
+}
+
+.marcas {
+    align-self: flex-end;
+    background: transparent;
+    border-top: #D4B45B 2px solid;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        ". . .";
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+}
+
+.centrado:hover {
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+    text-shadow: -1px -1px 1px #D4B45B, 1px -1px 1px #D4B45B, -1px 1px 1px #D4B45B, 1px 1px 1px #D4B45B;
+}
+
+.contenedor:hover {
+    transform: scale(1.1);
+}
+
+.contenedor {
+    background: transparent;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado {
+    background: transparent;
+    width: 300px;
+    height: 400px;
+    color: rgb(0, 0, 0, 0);
+    font-size: larger;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+    #eslogan {
+        display: none;
+    }
+
+    .seccion {
+        display: none;
+    }
+
+    #menuH {
+        display: flex;
+        color: #D4B45B;
+    }
+
+    #menuH:hover {
+        border: 3px #468DC5 solid;
+        border-radius: 25px;
+        transform: scale(1.1);
+        padding: 6px;
+        color: #468DC5;
+        cursor: pointer;
+    }
+
+    .news {
+        flex-direction: column;
+    }
+
+    #secDir {
+        height: fit-content;
+    }
+
+    #lista {
+        display: none;
+    }
+
+    .sub {
+        display: none;
+    }
+
+    .seccionP>p>img {
+        display: none;
+    }
+
+    .marcas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            ". ."
+            ". .";
+        height: 900px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .menuA {
+        display: none;
+    }
+}
